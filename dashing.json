@@ -1,0 +1,20 @@
+{
+    "name": "MinHook",
+    "package":"MinHook",
+    "index":"minhook.html",
+    "icon32x32":"minhook1.png",
+    "externalURL":"",
+    "selectors": {
+				"dt.guide a.item-hooking": "Guide",
+				"dt.enum a.item-enum": "Enum",
+        "dt a.item": "Function",
+
+        "title": {
+          "type":"Package",
+          "replacement": ""
+        }
+    },
+    "ignore": [
+        "ABOUT"
+    ]
+}
